@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.nav_container {
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav_container .nav_logotype {
+  width: 250px;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.nav_container .logo_img {
+  height: 60px;
+  padding: 5px;
+}
+
+.nav_container .site_link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #abcb0c;
+  font-weight: 700;
+}
+
+.nav_container .navbar {
+  height: 60px;
+}
+
+.nav_container .navbar .nav-link {
+  margin: 10px;
+  color: #fff !important;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.nav_container .navbar .nav-link:hover {
+  color: #abcb0c !important;
+}
+
+.nav_container .nav_socialNetwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 250px;
+}
+
+.nav_container .socialNetwork_list {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+
+.nav_container .socialNetwork_link {
+  margin: 10px;
+  color: #abcb0c;
+}
+
+.header_wrap {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  height: 750px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../img/header-img.jpg);
+  background-size: cover;
+}
+
+.header_wrap .header_container {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header_wrap .header {
+  margin: auto;
+  padding: 0;
+  width: 1140px;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header_wrap .header_title {
+  display: block;
+  margin: 30px auto 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.header_wrap .header_title .title-accent {
+  font-weight: 900;
+  font-size: 38px;
+  color: #abcb0c;
+}
+
+.header_wrap .logotype {
+  display: block;
+  margin: -5px auto 0;
+  width: 140px;
+}
+
+.header_wrap .animal {
+  margin: 0 auto 75px;
+  width: 560px;
+  height: 480px;
+  position: relative;
+}
+
+.header_wrap .animal .pet-passport_img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 340px;
+  -webkit-box-shadow: 0 0 6px #121212;
+          box-shadow: 0 0 6px #121212;
+  border-radius: 2px;
+}
+
+.header_wrap .animal .animal-img-cat {
+  position: absolute;
+  bottom: 0px;
+  left: 180px;
+  height: 200px;
+}
+
+.header_wrap .animal .animal-img-dog {
+  position: absolute;
+  bottom: 0px;
+  left: 290px;
+  height: 450px;
+}
+/*# sourceMappingURL=main.css.map */
